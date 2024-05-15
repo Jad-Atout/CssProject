@@ -12,7 +12,7 @@ body{
     --subFont:"Inter",sans-serif;
     --mainColor: #545be8;
 }
-.head,.auth,.logo,.nav a{
+.head,.auth,.logo,.nav ul{
 
     display: flex;
     flex-wrap: wrap;
@@ -82,3 +82,10 @@ body{
         color: white;
         background-color: #545be8;
     }
+@media (max-width: 900px) {
+    .nav{
+        display: none;
+    }
+
+
+}
