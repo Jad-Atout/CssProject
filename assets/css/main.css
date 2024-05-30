@@ -135,6 +135,11 @@ beginning style
     display: flex;
     gap: 30px;
 }
+.beginning .up_reword p{
+    font-size: 16px;
+    font-family: var(--mainFont);
+    padding-bottom: 10px;
+}
 .beginning .up_reword .buttons a:first-child{
     color: white;
     font-family: var(--subFont);
@@ -165,8 +170,6 @@ beginning style
     justify-content: space-between;
     color: #969696;
     width: 40%;
-    gap: 20px;
-
 }
 .beginning .wrapper{
     padding:5px ;
@@ -274,6 +277,9 @@ beginning style
     }
     .beginning .arrows img{
         width:30px;
+    }
+    .beginning .up_reword{
+        width:80%;
     }
 }
 @media (max-width: 640px) {
@@ -599,6 +605,10 @@ Courses style
     }
     .courses .course_item_info span{
        font-size: 12px;
+    }
+    .beginning .up_reword p{
+        font-size: 12px;
+        padding-bottom: 5px;
     }
 
 }
